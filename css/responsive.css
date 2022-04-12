@@ -1,7 +1,7 @@
 
 
 
-/* if the viewport is equal to 340px or less than that */ 
+/* se a janela de visualização for igual a 340px ou menor que isso */ 
 @media only screen and (max-width: 340px){
     .header_area .main-menu .navbar,
     .header_area .main-menu .navbar .navbar-brand,
@@ -29,7 +29,7 @@
 }
 
 
-/* if the viewport is equal to 340px or less than that */ 
+/* se a janela de visualização for igual a 792px ou menor que isso */ 
 @media only screen and (max-width: 792px){
     .site-main .about-area .about-title h2 > span{
         font-size: 31px;
@@ -66,7 +66,7 @@
 
 
 
-/* if the viewport is equal to 1910px or less than that */ 
+/* se a janela de visualização for igual a 1910px ou menor que isso */ 
 @media only screen and (max-width: 1910px){
     .header_area .main-menu .navbar{
         padding: 1rem;

@@ -1,16 +1,16 @@
 
-/* import fonts from fonts.css file */ 
+/* importar fontes do arquivo fonts.css */ 
 @import url(./fonts.css);
 
-
-/* css variables */ 
+/* variáveis ​​css */ 
 @import url(./partials/_variables.css);
 
-/* import global styling */ 
+/* importar estilo global */ 
 @import url(./partials/_global.css);
 
 
-/* start navigation */ 
+
+/* navigation */ 
 
 .header_area .main-menu .navbar .navbar-brand{
     padding: 0 2rem 0 5rem;
@@ -41,10 +41,11 @@
     background-clip: text;
 }
 
+/* fim navigation */ 
 
-/* end navigation */ 
 
-/* Banner Area */ 
+
+/* Banner */ 
 
 .site-main .site-banner {
     background: url(../img/banner/home-banner.png) no-repeat 0% 50%;
@@ -78,11 +79,11 @@
     width: 90rem;
 }
 
+/* fim Banner */ 
 
 
-/* End Banner Area */ 
 
-/* Start About Area */ 
+/*  Início About */ 
 
 .site-main .about-area{
     padding: 8rem 5rem;
@@ -98,10 +99,10 @@
     padding: .4rem 0;
 }
 
-/* End About Area */ 
+/* fim About */ 
 
 
-/* Start Brand Area */ 
+/* Início Brand */ 
 
 .site-main .brand-area{
     padding: 1rem 20rem;
@@ -178,9 +179,11 @@
     padding-left: 10rem;
 }
 
-/* End Brand Area */ 
+/* fim Brand */ 
 
-/* Services Area */ 
+
+
+/* Services */ 
 
 .site-main .services-area{
     padding: 7rem 2rem;
@@ -206,12 +209,11 @@
     box-shadow: var(--box-shadow);
 }
 
+/* fim Services */ 
 
 
-/* End Services Area */ 
 
-
-/* Project Area */ 
+/* Project */ 
 
 .site-main .project-area{
     padding: 4rem 0;
@@ -236,8 +238,8 @@
     filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
 }
 
+/* fim Project */ 
 
-/* End Project Area */ 
 
 
 /* About Me */ 
@@ -280,9 +282,9 @@
     height: 12px;
 }
 
+/* fim About Me */ 
 
 
-/* End About Me */ 
 
 /* Subscribe me */ 
 
@@ -321,9 +323,11 @@
     padding: .7rem 2rem;
 }
 
-/* End subscribe me */ 
+/* fim subscribe me */ 
 
-/* Footer Area */ 
+
+
+/* Footer */ 
 
 footer.footer-area{
     padding: 5rem 0;
@@ -344,5 +348,4 @@ footer.footer-area .social a:hover > i{
     color: var(--primary-color);
 }
 
-
-/* End Footer */ 
+/* fim Footer */ 
